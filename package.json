@@ -1,0 +1,25 @@
+{
+  "name": "slinky_scaling",
+  "version": "0.0.1",
+  "description": "Slinky Responsive CSS Framework: Scaling Library",
+  "main": "slinky_scaling.scss",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sphism/slinky_scaling.git"
+  },
+  "author": "Matt Terry",
+  "license": "MIT",
+  "keywords": [
+    "css",
+    "scss",
+    "responsive",
+    "framework"
+  ],
+  "bugs": {
+    "url": "https://github.com/sphism/slinky_scaling/issues"
+  },
+  "homepage": "https://github.com/sphism/slinky_scaling#readme"
+}
