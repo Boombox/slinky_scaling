@@ -1,0 +1,32 @@
+
+
+$font-size-max: (
+  h1:    56px,
+  h2:    30px,
+  h3:    22px,
+  h4:    22px,
+  h5:    22px,
+  h6:    22px,
+  p:     22px,
+  small: 16px
+);
+
+$font-size-min: (
+  h1:    36px,
+  h2:    24px,
+  h3:    18px,
+  h4:    18px,
+  h5:    18px,
+  h6:    18px,
+  p:     18px,
+  small: 16px
+);
+
+$tag-names: h1 h2 h3 h4 h5 h6 p small;
+@each $tag-name in $tag-names {
+  //#{$tag-name},
+  %#{$tag-name}--flexifont,
+  #{$tag-name}.flexifont {
+    @include slinky-type(map-get($font-size-min, #{$tag-name}), map-get($font-size-max, #{$tag-name}));
+  }
+}

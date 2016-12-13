@@ -1,0 +1,12 @@
+@import "../slinky_properties/mixins";
+
+@mixin slinky-type($min-font-size, $max-font-size, $line-space: 1, $min-vw: 600px, $max-vw: 1300px) {
+  @include slinky-properties(font-size, $min-font-size, $max-font-size, $min-vw, $max-vw);
+  $min-line-height: $base-line-height * $min-font-size / $base-font-size;
+  $max-line-height: $base-line-height * $max-font-size / $base-font-size;
+  @include slinky-properties(line-height, $min-line-height, $max-line-height, $min-vw, $max-vw);
+
+  $min-margin: ($line-space * $base-line-height) - ($min-line-height - $base-line-height) / 2;
+  $max-margin: ($line-space * $base-line-height) - ($min-line-height - $base-line-height) / 2;
+  @include slinky-properties(margin-top margin-bottom, $min-margin, $max-margin, $min-vw, $max-vw);
+}
