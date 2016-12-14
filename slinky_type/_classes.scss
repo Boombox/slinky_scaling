@@ -1,25 +1,27 @@
 
 
+$font-scale: 1.2;
 $font-size-max: (
-  h1:    56px,
-  h2:    30px,
-  h3:    22px,
-  h4:    22px,
-  h5:    22px,
-  h6:    22px,
-  p:     22px,
-  small: 16px
+  h1:    $base-font-size * $font-scale * $font-scale * $font-scale * $font-scale * $font-scale,
+  h2:    $base-font-size * $font-scale * $font-scale * $font-scale * $font-scale,
+  h3:    $base-font-size * $font-scale * $font-scale * $font-scale,
+  h4:    $base-font-size * $font-scale * $font-scale,
+  h5:    $base-font-size * $font-scale * $font-scale,
+  h6:    $base-font-size * $font-scale * $font-scale,
+  p:     $base-font-size * $font-scale,
+  small: $base-font-size
 );
 
+$font-scale: 1.067;
 $font-size-min: (
-  h1:    36px,
-  h2:    24px,
-  h3:    18px,
-  h4:    18px,
-  h5:    18px,
-  h6:    18px,
-  p:     18px,
-  small: 16px
+  h1:    $base-font-size * $font-scale * $font-scale * $font-scale * $font-scale,
+  h2:    $base-font-size * $font-scale * $font-scale * $font-scale,
+  h3:    $base-font-size * $font-scale * $font-scale,
+  h4:    $base-font-size * $font-scale,
+  h5:    $base-font-size * $font-scale,
+  h6:    $base-font-size * $font-scale,
+  p:     $base-font-size,
+  small: $base-font-size / $font-scale
 );
 
 $tag-names: h1 h2 h3 h4 h5 h6 p small;
