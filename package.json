@@ -1,6 +1,6 @@
 {
   "name": "slinky_scaling",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Slinky Responsive CSS Framework: Scaling Library, scale css properties between min and max values at specified breakpoints.",
   "main": "slinky_scaling.scss",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sphism/slinky_scaling.git"
+    "url": "git+https://github.com/Boombox/slinky_scaling.git"
   },
   "author": "Matt Terry",
   "license": "MIT",
@@ -19,7 +19,7 @@
     "framework"
   ],
   "bugs": {
-    "url": "https://github.com/sphism/slinky_scaling/issues"
+    "url": "https://github.com/Boombox/slinky_scaling/issues"
   },
-  "homepage": "https://github.com/sphism/slinky_scaling#readme"
+  "homepage": "https://github.com/Boombox/slinky_scaling#readme"
 }
