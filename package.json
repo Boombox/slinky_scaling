@@ -1,6 +1,6 @@
 {
   "name": "slinky_scaling",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "Slinky Responsive CSS Framework: Scaling Library, scale css properties between min and max values at specified breakpoints.",
   "main": "slinky_scaling.scss",
   "scripts": {
