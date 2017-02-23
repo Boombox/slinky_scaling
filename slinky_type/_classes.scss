@@ -27,8 +27,8 @@ $font-size-min: (
 $tag-names: h1 h2 h3 h4 h5 h6 p small;
 @each $tag-name in $tag-names {
   #{$tag-name},
-  %#{$tag-name}--flexifont,
-  #{$tag-name}.flexifont {
+  %#{$tag-name}--slinky-type,
+  #{$tag-name}.slinky-type {
     @include slinky-type(map-get($font-size-min, #{$tag-name}), map-get($font-size-max, #{$tag-name}));
   }
 }
